@@ -162,6 +162,7 @@ Recovery and reengineering of hundreds of business-critical legacy applications 
 * JavaScript
 * TypeScript
 * C/C++
+* Visual Basic
 
 ### Backend
 
