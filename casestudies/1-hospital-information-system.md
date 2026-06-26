@@ -45,7 +45,7 @@ Hundreds of operational and executive reports were also developed to support cli
 
 ## High-Level Architecture
 
-[IMAGE_PLACEHOLDER_01]
+![Architecture](../resources/case1.1.jpg)
 
 **Core Architecture**
 
