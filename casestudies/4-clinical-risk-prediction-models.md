@@ -32,6 +32,23 @@ These models were integrated into the Hospital Information System and became par
 
 [IMAGE_PLACEHOLDER_01]
 
+Patient Clinical Information
+            │
+            ▼
+Clinical Variables
+            │
+            ▼
+Risk Prediction Models
+(ASA • Gupta • Caprini)
+            │
+            ▼
+Risk Score
+            │
+            ▼
+Clinical Decision Support
+            │
+            ▼
+Hospital Information System
 **Architecture Components**
 
 - Hospital Information System
