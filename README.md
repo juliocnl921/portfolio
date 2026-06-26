@@ -43,9 +43,7 @@ Design and implementation of bidirectional ETL/ELT pipelines connecting legacy a
 * SQL Server
 * Legacy Modernization
 
-📖 **Case Study**
-
-https://github.com/your-user/healthcare-data-integration-platform
+[📖 **Go to Case Study**](casestudies/2-healthcare-data-integration-platform.md)
 
 ---
 
@@ -62,9 +60,7 @@ Design and implementation of a Retrieval-Augmented Generation (RAG) assistant th
 * Vertex AI
 * Gemini
 
-📖 **Case Study**
-
-https://github.com/your-user/clinical-rag-assistant
+[📖 **Go to Case Study**](casestudies/3-clinical-rag-assistant.md)
 
 ---
 
@@ -79,9 +75,7 @@ Adaptation, validation, and deployment of predictive clinical models for periope
 * Clinical Decision Support
 * Data Science
 
-📖 **Case Study**
-
-https://github.com/your-user/clinical-risk-prediction-models
+[📖 **Go to Case Study**](casestudies/4-clinical-risk-prediction-models.md)
 
 ---
 
@@ -98,9 +92,7 @@ Design and evolution of an automated messaging platform for laboratory results a
 * PostgreSQL
 * System Reengineering
 
-📖 **Case Study**
-
-https://github.com/your-user/healthcare-whatsapp-platform
+[📖 **Go to Case Study**](casestudies/5-healthcare-whatsapp-platform.md)
 
 ---
 
@@ -119,9 +111,7 @@ Migration of a large-scale monthly enterprise data integration process from on-p
 * Java
 * Enterprise ETL
 
-📖 **Case Study**
-
-https://github.com/your-user/enterprise-cloud-etl-modernization
+[📖 **Go to Case Study**](casestudies/6-enterprise-cloud-etl-modernization.md)
 
 ---
 
@@ -138,9 +128,7 @@ Large-scale regeneration of billions of PDF account statements through applicati
 * Python
 * Enterprise Systems
 
-📖 **Case Study**
-
-https://github.com/your-user/massive-pdf-generation
+[📖 **Go to Case Study**](casestudies/7-massive-pdf-generation.md)
 
 ---
 
@@ -159,9 +147,7 @@ Recovery and reengineering of hundreds of business-critical legacy applications 
 * Windows Server
 * Linux
 
-📖 **Case Study**
-
-https://github.com/your-user/enterprise-legacy-systems-recovery
+[📖 **Go to Case Study**](casestudies/8-enterprise-legacy-systems-recovery.md)
 
 ---
 
