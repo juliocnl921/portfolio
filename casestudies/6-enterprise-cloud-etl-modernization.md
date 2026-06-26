@@ -10,7 +10,21 @@
 
 Between 2024 and 2026, I participated in the modernization of a large-scale enterprise data integration process responsible for transferring customer portfolio data from on-premises infrastructure to Google Cloud Platform.
 
-The original process required extensive manual intervention, involved multiple operational teams, and typically took around five days to complete each monthly execution. The objective was to redesign the architecture to significantly reduce execution time while improving reliability, observability, and security.
+The original process required extensive manual intervention, involved multiple operational teams, and typically took around five days to complete each monthly execution. 
+
+[IMAGE_PLACEHOLDER_01]
+
+Legacy Architecture
+
+SQL Server
+      │
+      ▼
+Manual Transformations
+      │
+      ▼
+PostgreSQL
+
+The objective was to redesign the architecture to significantly reduce execution time while improving reliability, observability, and security.
 
 ---
 
@@ -47,6 +61,43 @@ The solution became the new production process for transferring critical busines
 - Google Cloud Logging
 
 The architecture separated orchestration, monitoring, and data processing into independent services while preserving existing business rules implemented in PostgreSQL.
+
+[IMAGE_PLACEHOLDER_02]
+
+Cloud Architecture
+
+SQL Server
+      │
+      ▼
+Apache Beam
+      │
+      ▼
+Google Dataflow
+      │
+      ▼
+Cloud SQL
+      │
+      ▼
+Business Rules
+
+
+[IMAGE_PLACEHOLDER_03]
+
+Monitoring Architecture
+
+Angular UI
+      ▲
+      │
+Firestore Events
+      │
+      ▼
+Java Orchestrator
+      │
+      ▼
+Apache Beam Pipelines
+      │
+      ▼
+Google Dataflow
 
 ---
 
