@@ -187,6 +187,7 @@ Recovery and reengineering of hundreds of business-critical legacy applications 
 * Google Cloud Platform
 * Azure DevOps
 * Docker
+* Kubernetes
 * Git
 * CI/CD
 * DevSecOps
