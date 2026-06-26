@@ -34,6 +34,26 @@ The solution operated independently from the core hospital platform while remain
 
 [IMAGE_PLACEHOLDER_01]
 
+Initial Distributed Architecture
+
+Hospital System
+      │
+      ▼
+Event Queue
+      │
+ ┌────┴────┐
+ ▼         ▼
+Redis   PostgreSQL
+ │
+ ▼
+Ruby Orchestrators
+ │
+ ▼
+Node.js Services
+ │
+ ▼
+WhatsApp
+
 **Initial Architecture**
 
 - Node.js Services
@@ -50,6 +70,17 @@ The first version was designed as a complete messaging ecosystem capable of hand
 ## Architecture Evolution
 
 [IMAGE_PLACEHOLDER_02]
+
+Final Lightweight Architecture
+
+Hospital System
+      │
+      ▼
+Node.js Service
+(VenomBot)
+      │
+      ▼
+WhatsApp
 
 As project priorities evolved after the pandemic, the platform was redesigned with simplicity and operational efficiency as primary objectives.
 
