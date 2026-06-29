@@ -29,34 +29,11 @@ The architecture isolated AI processing from the core EHR while maintaining stri
 
 ## High-Level Architecture
 
-[IMAGE_PLACEHOLDER_01]
+(../resources/case3.1.png)
 Overall RAG Architecture
 
-[IMAGE_PLACEHOLDER_02]
+(../resources/case3.2.png)
 Example Conversation Flow
-
-
-Doctor
-    │
-    ▼
-Hospital System
-    │
-Patient Selected
-    │
-    ▼
-Retrieve Patient Data
-    │
-    ▼
-Build Prompt
-    │
-    ▼
-Gemini / LLM
-    │
-    ▼
-Response
-    │
-    ▼
-Hospital Interface
 
 **Architecture Components**
 
