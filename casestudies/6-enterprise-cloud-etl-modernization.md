@@ -12,17 +12,9 @@ Between 2024 and 2026, I participated in the modernization of a large-scale ente
 
 The original process required extensive manual intervention, involved multiple operational teams, and typically took around five days to complete each monthly execution. 
 
-[IMAGE_PLACEHOLDER_01]
+**Legacy Architecture**
 
-Legacy Architecture
-
-SQL Server
-      │
-      ▼
-Manual Transformations
-      │
-      ▼
-PostgreSQL
+SQL Server > Manual Transformations > PostgreSQL > Bussines Rules Trasnformations
 
 The objective was to redesign the architecture to significantly reduce execution time while improving reliability, observability, and security.
 
