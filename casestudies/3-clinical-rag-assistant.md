@@ -143,7 +143,7 @@ Later evolution:
 
 ## Related Case Studies
 
-- [🏥 **Enterprise Hospital Information System**](casestudies/1-hospital-information-system.md)
-- [🔄 **Healthcare Data Integration Platform**](casestudies/2-healthcare-data-integration-platform.md)
-- [📊 **Clinical Risk Prediction Models**](casestudies/4-clinical-risk-prediction-models.md)
-- [💬 **Healthcare WhatsApp Notification Platform**](casestudies/5-healthcare-whatsapp-platform.md)
+- [🏥 **Enterprise Hospital Information System**](1-hospital-information-system.md)
+- [🔄 **Healthcare Data Integration Platform**](2-healthcare-data-integration-platform.md)
+- [📊 **Clinical Risk Prediction Models**](4-clinical-risk-prediction-models.md)
+- [💬 **Healthcare WhatsApp Notification Platform**](5-healthcare-whatsapp-platform.md)
