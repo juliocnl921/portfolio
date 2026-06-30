@@ -114,11 +114,6 @@ Patient information collected during the clinical evaluation was processed autom
 
 ## Related Case Studies
 
-- 🏥 Enterprise Hospital Information System
-- 🔄 Healthcare Data Integration Platform
-- 🤖 Clinical RAG Assistant
-- 💬 Healthcare WhatsApp Notification Platform
-
 - [🏥 **Enterprise Hospital Information System**](1-hospital-information-system.md)
 - [🔄 **Healthcare Data Integration Platform**](2-healthcare-data-integration-platform.md)
 - [🤖 **Clinical RAG Assistant**](3-clinical-rag-assistant.md)
