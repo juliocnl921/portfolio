@@ -45,7 +45,7 @@ The solution became the new production process for transferring critical busines
 
 ---
 
-## High-Level Architecture
+## High-Level Solution Architecture
 
 ![](../resources/case6.1.png)
 
@@ -62,31 +62,31 @@ The solution became the new production process for transferring critical busines
 
 The architecture separated orchestration, monitoring, and data processing into independent services while preserving existing business rules implemented in PostgreSQL.
 
-![](../resources/case6.2.png)
-
-Architecture for multiple ETL pipelines
 
 
+## ETL pipeline example for big tables
+```python
+import apache_beam as beam
 
-[IMAGE_PLACEHOLDER_03]
+notify_start()
 
-Monitoring Architecture
+with beam.Pipeline() as pipeline:
+    (
+        pipeline
+        | beam.Create([None])
+        | "Get Batch Bounds" >> beam.ParDo(get_batch_bounds)
+        | "Read SQL Server" >> beam.ParDo(read_sql_server)
+        | "Notify Progress" >> beam.ParDo(notify_progress)
+        | "Transforms and cleaning" >> beam.ParDo(apply_transforms)
+        | "Notify Progress" >> beam.ParDo(notify_progress)
+        | "Group Batches" >> beam.BatchElements(min, max)
+        | "Write Cloud SQL"  >> beam.ParDo(write_cloudsql)
+    )
 
-Angular UI
-      ▲
-      │
-Firestore Events
-      │
-      ▼
-Java Orchestrator
-      │
-      ▼
-Apache Beam Pipelines
-      │
-      ▼
-Google Dataflow
+notify_finish()
 
----
+```
+-
 
 ## My Contributions
 
