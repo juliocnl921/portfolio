@@ -118,5 +118,5 @@ The resulting platform enabled large-volume document generation while maintainin
 
 ## Related Case Studies
 
-- ☁️ Enterprise Cloud ETL Modernization
-- 🛠️ Enterprise Legacy Systems Recovery
+- [☁️ **Enterprise Cloud ETL Modernization**](casestudies/6-enterprise-cloud-etl-modernization.md)
+- [🛠️ **Enterprise Legacy Systems Recovery**](casestudies/8-enterprise-legacy-systems-recovery.md)

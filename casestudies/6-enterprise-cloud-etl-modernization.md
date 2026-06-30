@@ -165,5 +165,5 @@ notify_finish()
 
 ## Related Case Studies
 
-- 📄 Massive PDF Generation at Scale
-- 🛠️ Enterprise Legacy Systems Recovery
+- [📄 **Massive PDF Generation at Scale**](casestudies/7-massive-pdf-generation.md)
+- [🛠️ **Enterprise Legacy Systems Recovery**](casestudies/8-enterprise-legacy-systems-recovery.md)

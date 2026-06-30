@@ -123,7 +123,7 @@ The architecture combined event-driven concepts with scheduled microbatch execut
 
 ## Related Case Studies
 
-- 🏥 Enterprise Hospital Information System
-- 🤖 Clinical RAG Assistant
-- 📊 Clinical Risk Prediction Models
-- 💬 Healthcare WhatsApp Notification Platform
+- [🏥 **Enterprise Hospital Information System**](casestudies/1-hospital-information-system.md)
+- [🤖 **Clinical RAG Assistant**](casestudies/3-clinical-rag-assistant.md)
+- [📊 **Clinical Risk Prediction Models**](casestudies/4-clinical-risk-prediction-models.md)
+- [💬 **Healthcare WhatsApp Notification Platform**](casestudies/5-healthcare-whatsapp-platform.md)

@@ -133,7 +133,7 @@ This redesign significantly reduced infrastructure complexity, operational costs
 
 ## Related Case Studies
 
-- 🏥 Enterprise Hospital Information System
-- 🔄 Healthcare Data Integration Platform
-- 🤖 Clinical RAG Assistant
-- 📊 Clinical Risk Prediction Models
+- [🏥 **Enterprise Hospital Information System**](casestudies/1-hospital-information-system.md)
+- [🔄 **Healthcare Data Integration Platform**](casestudies/2-healthcare-data-integration-platform.md)
+- [🤖 **Clinical RAG Assistant**](casestudies/3-clinical-rag-assistant.md)
+- [📊 **Clinical Risk Prediction Models**](casestudies/4-clinical-risk-prediction-models.md)

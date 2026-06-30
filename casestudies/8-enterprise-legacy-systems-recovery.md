@@ -124,5 +124,5 @@ Applications were progressively recovered, validated, rebuilt, and redeployed wh
 
 ## Related Case Studies
 
-- ☁️ Enterprise Cloud ETL Modernization
-- 📄 Massive PDF Generation at Scale
+- [☁️ **Enterprise Cloud ETL Modernization**](casestudies/6-enterprise-cloud-etl-modernization.md)
+- [📄 **Massive PDF Generation at Scale**](casestudies/7-massive-pdf-generation.md)
