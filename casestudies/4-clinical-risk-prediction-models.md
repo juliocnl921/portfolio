@@ -118,3 +118,5 @@ Patient information collected during the clinical evaluation was processed autom
 - [🔄 **Healthcare Data Integration Platform**](2-healthcare-data-integration-platform.md)
 - [🤖 **Clinical RAG Assistant**](3-clinical-rag-assistant.md)
 - [💬 **Healthcare WhatsApp Notification Platform**](5-healthcare-whatsapp-platform.md)
+
+[← Back to Main](../README.md)
