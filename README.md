@@ -12,6 +12,62 @@ Instead of publishing proprietary code, this portfolio documents the engineering
 
 # Featured Case Studies
 
+## ☁️ Enterprise Cloud ETL Modernization
+
+Migration of a large-scale monthly enterprise data integration process from on-premises infrastructure to Google Cloud Platform using Apache Beam, Dataflow, Cloud SQL, and custom orchestration services.
+
+**Topics**
+
+* Google Cloud Platform
+* Apache Beam
+* Dataflow
+* Cloud SQL
+* Airflow
+* Python
+* Java
+* SQL
+* Enterprise ETL
+
+[📖 **View Case Study**](casestudies/6-enterprise-cloud-etl-modernization.md)
+
+---
+
+## 📄 Massive PDF Generation at Scale
+
+Large-scale regeneration of billions of PDF account statements through application reengineering, workload parallelization, and performance optimization.
+
+**Topics**
+
+* Performance Optimization
+* Parallel Processing
+* PDF Generation
+* Data Recovery
+* Python
+* Enterprise Systems
+
+[📖 **View Case Study**](casestudies/7-massive-pdf-generation.md)
+
+---
+
+## 🛠️ Enterprise Legacy Systems Recovery
+
+Recovery and reengineering of hundreds of business-critical legacy applications following a major organizational contingency involving source code and infrastructure loss.
+
+**Topics**
+
+* Reverse Engineering
+* Legacy Systems
+* Software Recovery
+* Java
+* C#
+* PHP
+* Windows Server
+* Linux
+
+[📖 **View Case Study**](casestudies/8-enterprise-legacy-systems-recovery.md)
+
+---
+
 ## 🏥 Enterprise Hospital Information System (EHR)
 
 Design, development, and long-term evolution of a comprehensive Hospital Information System supporting clinical, administrative, financial, and operational workflows across multiple healthcare facilities over an eight-year period.
@@ -96,61 +152,6 @@ Design and evolution of an automated messaging platform for laboratory results a
 
 ---
 
-## ☁️ Enterprise Cloud ETL Modernization
-
-Migration of a large-scale monthly enterprise data integration process from on-premises infrastructure to Google Cloud Platform using Apache Beam, Dataflow, Cloud SQL, and custom orchestration services.
-
-**Topics**
-
-* Google Cloud Platform
-* Apache Beam
-* Dataflow
-* Cloud SQL
-* Airflow
-* Python
-* Java
-* SQL
-* Enterprise ETL
-
-[📖 **View Case Study**](casestudies/6-enterprise-cloud-etl-modernization.md)
-
----
-
-## 📄 Massive PDF Generation at Scale
-
-Large-scale regeneration of billions of PDF account statements through application reengineering, workload parallelization, and performance optimization.
-
-**Topics**
-
-* Performance Optimization
-* Parallel Processing
-* PDF Generation
-* Data Recovery
-* Python
-* Enterprise Systems
-
-[📖 **View Case Study**](casestudies/7-massive-pdf-generation.md)
-
----
-
-## 🛠️ Enterprise Legacy Systems Recovery
-
-Recovery and reengineering of hundreds of business-critical legacy applications following a major organizational contingency involving source code and infrastructure loss.
-
-**Topics**
-
-* Reverse Engineering
-* Legacy Systems
-* Software Recovery
-* Java
-* C#
-* PHP
-* Windows Server
-* Linux
-
-[📖 **View Case Study**](casestudies/8-enterprise-legacy-systems-recovery.md)
-
----
 
 # Core Technologies
 
