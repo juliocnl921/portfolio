@@ -146,11 +146,7 @@ Throughout the project I worked in multiple technical roles.
 
 ## Related Case Studies
 
-- [🔄 **Healthcare Data Integration Platform**](casestudies/2-healthcare-data-integration-platform.md)
-- [🤖 **Clinical RAG Assistant**](casestudies/3-clinical-rag-assistant.md)
-- [📊 **Clinical Risk Prediction Models**](casestudies/4-clinical-risk-prediction-models.md)
-- [💬 **Healthcare WhatsApp Notification Platform**](casestudies/5-healthcare-whatsapp-platform.md)
-
-
-
-
+- [🔄 **Healthcare Data Integration Platform**](2-healthcare-data-integration-platform.md)
+- [🤖 **Clinical RAG Assistant**](3-clinical-rag-assistant.md)
+- [📊 **Clinical Risk Prediction Models**](4-clinical-risk-prediction-models.md)
+- [💬 **Healthcare WhatsApp Notification Platform**](5-healthcare-whatsapp-platform.md)
