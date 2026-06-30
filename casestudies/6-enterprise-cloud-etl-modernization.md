@@ -49,7 +49,7 @@ The solution became the new production process for transferring critical busines
 
 ![](../resources/case6.1.png)
 
-**Solution Architecture**
+**Uses:**
 
 - On-Premise SQL Server
 - Apache Beam Pipelines
@@ -61,7 +61,6 @@ The solution became the new production process for transferring critical busines
 - Google Cloud Logging
 
 The architecture separated orchestration, monitoring, and data processing into independent services while preserving existing business rules implemented in PostgreSQL.
-
 
 
 ## ETL pipeline example for big tables

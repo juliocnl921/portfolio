@@ -36,23 +36,7 @@ The resulting platform enabled large-volume document generation while maintainin
 
 ## High-Level Architecture
 
-[IMAGE_PLACEHOLDER_01]
-
-Data Recovery Flow
-
-Data Lakes
-      │
-Data Warehouses
-      │
-Data Marts
-      │
-Images / PDFs / Excel
-      │
-      ▼
-Recovered Database
-      │
-      ▼
-PDF Generation
+![](../resources/case7.1.png)
 
 **Architecture Components**
 
@@ -65,6 +49,10 @@ PDF Generation
 - Distributed Execution Environment
 
 Historical data was reconstructed from multiple heterogeneous sources before entering the optimized PDF generation process.
+
+## Architecture for the PDF Generator
+
+![](../resources/case7.2.png)
 
 ---
 
