@@ -47,7 +47,7 @@ The solution became the new production process for transferring critical busines
 
 ## High-Level Architecture
 
-[IMAGE_PLACEHOLDER_01]
+![](../resources/case6.1.png)
 
 **Solution Architecture**
 
@@ -62,11 +62,11 @@ The solution became the new production process for transferring critical busines
 
 The architecture separated orchestration, monitoring, and data processing into independent services while preserving existing business rules implemented in PostgreSQL.
 
-[IMAGE_PLACEHOLDER_02]
+![](../resources/case6.2.png)
 
 Cloud Architecture
 
-SQL Server
+SQL Server (OnPremise)
       │
       ▼
 Apache Beam
@@ -75,10 +75,10 @@ Apache Beam
 Google Dataflow
       │
       ▼
-Cloud SQL
+Postgres (Cloud SQL)
       │
       ▼
-Business Rules
+Business Rules  (Postgres functions)
 
 
 [IMAGE_PLACEHOLDER_03]
