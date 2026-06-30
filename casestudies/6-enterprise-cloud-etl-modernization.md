@@ -12,7 +12,7 @@ Between 2024 and 2026, I participated in the modernization of a large-scale ente
 
 The original process required extensive manual intervention, involved multiple operational teams, and typically took around five days to complete each monthly execution. 
 
-**Legacy Architecture**
+**Legacy Architecture:**
 
 SQL Server > Manual Transformations > PostgreSQL > Bussines Rules Trasnformations
 
