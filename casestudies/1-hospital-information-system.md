@@ -43,7 +43,7 @@ Hundreds of operational and executive reports were also developed to support cli
 
 ---
 
-## High-Level Architecture
+## High-Level Solution Architecture
 
 ![](../resources/case1.1.jpg)
 

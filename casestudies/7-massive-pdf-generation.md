@@ -36,19 +36,12 @@ The resulting platform enabled large-volume document generation while maintainin
 
 ## High-Level Architecture
 
+**The solution was implemented in two steps**:
+- Reconstruct the data from multiple heterogeneous sources, including data lakes and data marts, using scrapers to extract unstructured data from images and files.
+- Generate the PDF files using parallel workers to improve performance and scalability.
+
 ![](../resources/case7.1.png)
 
-**Architecture Components**
-
-- Data Lakes
-- Data Warehouses
-- Data Marts
-- SQL Databases
-- PDF Generation Engine
-- Parallel Workers
-- Distributed Execution Environment
-
-Historical data was reconstructed from multiple heterogeneous sources before entering the optimized PDF generation process.
 
 ## Architecture for the PDF Generator
 
@@ -116,27 +109,10 @@ Historical data was reconstructed from multiple heterogeneous sources before ent
 - Designed a distributed execution strategy using **12 parallel workstations**, achieving an aggregate throughput of approximately **4,000 PDFs/second**.
 - Reduced the estimated execution time from **several years to approximately 23 hours**.
 
-[IMAGE_PLACEHOLDER_02]
-
-Performance Comparison
-
-Original Application
-
-10 PDFs/sec
-
-≈ Years
-
-──────────────►
-
-Optimized Engine
-
-300 PDFs/sec / Machine
-
-12 Machines
-
-≈ 4,000 PDFs/sec
-
-≈ 23 Hours
+| Performance Comparison | speed | aproximated duration |
+| --- | --- | --- |
+| Original Application | 10 PDFs/sec | +1 Years |
+| Optimized Engine | 300 PDFs/sec x 12 Machines | ≈ 23 Hours |
 
 ---
 

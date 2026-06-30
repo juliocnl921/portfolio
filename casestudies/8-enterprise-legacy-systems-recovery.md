@@ -34,28 +34,7 @@ The recovered systems supported multiple business areas and represented years of
 
 ## High-Level Architecture
 
-[IMAGE_PLACEHOLDER_01]
-
-Infrastructure Failure
-        │
-        ▼
-Available Sources
-(Code • Backups • Databases • Servers)
-        │
-        ▼
-Reverse Engineering
-        │
-        ▼
-Application Recovery
-        │
-        ▼
-Git Repositories
-        │
-        ▼
-Deployment Environment
-        │
-        ▼
-Production Systems
+![](../resources/case8.1.png)
 
 **Recovery Workflow**
 
