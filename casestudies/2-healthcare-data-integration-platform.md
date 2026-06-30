@@ -34,7 +34,7 @@ Several dozen integration pipelines were developed as new modules and medical se
 
 ## High-Level Architecture
 
-![Architecture](../resources/case2.1.png)
+![](../resources/case2.1.png)
 
 
 **Integration Architecture**

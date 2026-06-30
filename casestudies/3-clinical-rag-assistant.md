@@ -29,10 +29,10 @@ The architecture isolated AI processing from the core EHR while maintaining stri
 
 ## High-Level Architecture
 
-(../resources/case3.1.png)
+![](../resources/case3.1.png)
 Overall RAG Architecture
 
-(../resources/case3.2.png)
+![](../resources/case3.2.png)
 Example Conversation Flow
 
 **Architecture Components**
