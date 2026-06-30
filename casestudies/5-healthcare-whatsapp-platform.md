@@ -32,27 +32,9 @@ The solution operated independently from the core hospital platform while remain
 
 ## High-Level Architecture
 
-[IMAGE_PLACEHOLDER_01]
+![](../resources/case5.1.png)
 
 Initial Distributed Architecture
-
-Hospital System
-      │
-      ▼
-Event Queue
-      │
- ┌────┴────┐
- ▼         ▼
-Redis   PostgreSQL
- │
- ▼
-Ruby Orchestrators
- │
- ▼
-Node.js Services
- │
- ▼
-WhatsApp
 
 **Initial Architecture**
 
@@ -69,18 +51,8 @@ The first version was designed as a complete messaging ecosystem capable of hand
 
 ## Architecture Evolution
 
-[IMAGE_PLACEHOLDER_02]
+![](../resources/case5.2.png)
 
-Final Lightweight Architecture
-
-Hospital System
-      │
-      ▼
-Node.js Service
-(VenomBot)
-      │
-      ▼
-WhatsApp
 
 As project priorities evolved after the pandemic, the platform was redesigned with simplicity and operational efficiency as primary objectives.
 

@@ -30,7 +30,7 @@ These models were integrated into the Hospital Information System and became par
 
 ## High-Level Architecture
 
-[IMAGE_PLACEHOLDER_01]
+![](../resources/case4.1.png)
 
 Patient Clinical Information
             │
