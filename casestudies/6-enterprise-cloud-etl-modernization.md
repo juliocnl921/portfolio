@@ -64,21 +64,8 @@ The architecture separated orchestration, monitoring, and data processing into i
 
 ![](../resources/case6.2.png)
 
-Cloud Architecture
+Architecture for multiple ETL pipelines
 
-SQL Server (OnPremise)
-      │
-      ▼
-Apache Beam
-      │
-      ▼
-Google Dataflow
-      │
-      ▼
-Postgres (Cloud SQL)
-      │
-      ▼
-Business Rules  (Postgres functions)
 
 
 [IMAGE_PLACEHOLDER_03]
