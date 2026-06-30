@@ -109,6 +109,7 @@ Migration of a large-scale monthly enterprise data integration process from on-p
 * Airflow
 * Python
 * Java
+* SQL
 * Enterprise ETL
 
 [📖 **View Case Study**](casestudies/6-enterprise-cloud-etl-modernization.md)
